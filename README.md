@@ -9,7 +9,7 @@ This guide outlines the steps needed to set up a Kubernetes cluster using kubead
     Passion to Learn
      
 
-# Master & Worker Node:
+## Master & Worker Node:
 
 Run the following commands on both the master and worker nodes to prepare them for kubeadm.
 
@@ -79,7 +79,7 @@ Run the following commands on both the master and worker nodes to prepare them f
     sudo systemctl start kubelet
 
 
-Master Node (Only):
+## Master Node (Only):
 
 a) Initialize the Kubernetes master node.
 
@@ -103,7 +103,7 @@ b) Generate a token for worker nodes to join:
  c) Expose port 6443 in the Security group for the Worker to connect to Master Node
 
  
-Worker Node (Only):
+## Worker Node (Only):
 
 a) Run the following commands on the worker node.
 
