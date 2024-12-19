@@ -80,6 +80,7 @@ Run the following commands on both the master and worker nodes to prepare them f
 
 
 Master Node (Only):
+
 a) Initialize the Kubernetes master node.
 
     sudo kubeadm config images pull
@@ -99,7 +100,7 @@ b) Generate a token for worker nodes to join:
 
      kubeadm token create --print-join-command
 
- ) Expose port 6443 in the Security group for the Worker to connect to Master Node
+ c) Expose port 6443 in the Security group for the Worker to connect to Master Node
 
  
 Worker Node (Only):
