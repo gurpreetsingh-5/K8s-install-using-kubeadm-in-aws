@@ -1,7 +1,7 @@
 # K8s-install-using-kubeadm-in-aws
 
 This guide outlines the steps needed to set up a Kubernetes cluster using kubeadm.
-Pre-requisites:
+## Pre-requisites:
 
     Ubuntu OS (Xenial or later)
     sudo privileges
@@ -9,7 +9,7 @@ Pre-requisites:
     Passion to Learn
      
 
-Master & Worker Node:
+# Master & Worker Node:
 
 Run the following commands on both the master and worker nodes to prepare them for kubeadm.
 
